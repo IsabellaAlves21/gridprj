@@ -1,0 +1,64 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-rows: 200px 100px auto auto auto 200px;*/
+    grid-auto-rows: 200px;
+    gap: 8px;
+    grid-template-areas:
+    "um um um"
+    "dois tres tres"
+    "quatro tres tres"
+    "cinco tres tres"
+    "seis sete oito"
+    "nove dez oito";
+}
+
+.item1 {
+    background-color: hotpink;
+    grid-area: um;
+}
+
+.item2 {
+    background-color: indigo;
+    grid-area: dois;
+}
+
+.item3 {
+    background-color: lawngreen;
+    grid-area: tres;
+}
+ 
+.item4 {
+    background-color: lightgreen;
+    grid-area: quatro;
+}
+
+.item5 {
+    background-color: goldenrod;
+    grid-area: cinco;
+}
+
+.item6 {
+    background-color:deepskyblue;
+    grid-area: seis;
+}
+
+.item7 {
+    background-color: fuchsia;
+    grid-area: sete;
+}
+
+.item8 {
+    background-color: crimson;
+    grid-area: oito;
+}
+
+.item9 {
+    background-color: darkgrey;
+    grid-area: nove;
+}
+
+.item10 {
+    background-color: darkkhaki;
+    grid-area: dez;
+}
